@@ -1,11 +1,10 @@
-
 #include <stdio.h>
 
 /**
 * main - print the string in the put function
 *
 * Description: using the main function
-* this program prints "The sizes of various types on the computer
+* this program prints "Programming is like building a multilingual puzzle
 * Return: 0
 */
 int main(void)
