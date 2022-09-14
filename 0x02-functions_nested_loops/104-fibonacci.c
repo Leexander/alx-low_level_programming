@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	long int i, j, k, next;
+	unsigned long int i, j, k, next;
 
 	j = 1;
 
@@ -16,10 +16,10 @@ int main(void)
 	{
 		if (j != 83621143489848422977)
 		{
-			printf("%ld, ", j);
+			printf("%lu, ", j);
 		} else
 		{
-		printf("%ld\n", j);
+		printf("%lu\n", j);
 		}
 		next = j + k;
 		j = k;
