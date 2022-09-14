@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - prints the first 50 Fibonacci numbers, starting with 1 and 2
+ *main - prints the first 98 Fibonacci numbers, starting with 1 and 2
  *followed by a new line
  * Return: Always 0 (Success)
  */
@@ -12,9 +12,9 @@ int main(void)
 
 	k = 2;
 
-	for (i = 1; i <= 50; ++i)
+	for (i = 1; i <= 98; ++i)
 	{
-		if (j != 20365011074)
+		if (j != 83621143489848422977)
 		{
 			printf("%ld, ", j);
 		} else
