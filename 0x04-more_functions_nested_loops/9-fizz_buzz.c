@@ -8,26 +8,36 @@
  */
 int main(void)
 {
-	int h = 1;
+	int num = 0;
 
-	while (h <= 100)
-{
-		if (h % 3 == 0 && h % 5 == 0)
+	while (num++ < 100)
+	{
+		if ((num % 3 == 0) && (num % 5 == 0))
+		{
 			printf("FizzBuzz ");
-		 else if (h % 5 == 0)
-		{
-			if (h == 100)
-		{
-			printf(" Buzz");
-			printf("\n");
-		} else 
-			printf("Buzz ");
 		}
-		       	else if (h % 3 == 0)
-			printf(" Fizz ");
-		 else
-			printf("%d", h); h++;
+		else if ((num % 3) == 0)
+		{
+			printf("Fizz ");
+		}
+		else if ((num % 5) == 0)
+		{
+			if (num != 100)
+			{
+				printf("Buzz ");
+			}
+			else
+			{
+				printf("Buzz");
+			}
+		}
+		else
+		{
+			printf("%d ", num);
+		}
 	}
-	return (0); 
+	printf("\n");
+
+	return (0);
 }
 
