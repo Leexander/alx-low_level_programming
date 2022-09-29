@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime_number - returns the 1 if s is a palindrome
+ * is_palindrome - returns the 1 if s is a palindrome
  * @s: string to be checked
  *
  * Return: 1 if s is a palindrome, 0 otherwise
