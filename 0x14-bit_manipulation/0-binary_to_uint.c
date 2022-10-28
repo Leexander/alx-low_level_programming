@@ -42,5 +42,6 @@ unsigned int binary_to_uint(const char *b)
 		base *= 2;
 		str_len--;
 	}
+
 	return (decimal);
 }
